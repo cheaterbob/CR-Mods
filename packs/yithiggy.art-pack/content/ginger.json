@@ -25,11 +25,11 @@
       "piece/hair-back": {
         "bone": "Head", "attachToBone": true,
         "offsetX": -0.03533, "offsetY": -0.00453,
-        "pivotX": 0.453125, "pivotY": 0.609375,
+        "pivotX": 0.463125, "pivotY": 0.579375,
         "sortingOffset": 4,
         "physics": {
           "mode": "sway", "spring": 36, "damping": 7,
-          "gravity": 0.14, "motionInfluence": 1.5, "maxAngle": 30,
+          "gravity": 0.14, "motionInfluence": 1.5, "maxAngle": 15,
           "idleAmplitude": 8, "idleFrequency": 0.8
         }
       }

@@ -4,24 +4,33 @@
   "id": "yithiggy.art-pack:clothing/ginger",
   "displayName": "Ginger",
   "description": "",
-  "extends": "core:clothing/hair-default",
   "unlockedByDefault": true,
   "category": "Hair",
   "incompatibleCategories": ["Hair"],
   "visual": {
-    "type": "coreClothingSprites",
+    "type": "originalClothingSprites",
     "pixelsPerUnit": 32,
     "sprites": {
       "icon": "assets/icons/ginger.png",
-      "piece/hair": "assets/hair/ginger.png"
+      "piece/hair-front": "assets/hair/ginger-front.png",
+      "piece/hair-back": "assets/hair/ginger-back.png"
     },
     "attachments": {
-      "piece/hair": {
-        "bone": "Head",
-        "attachToBone": true,
-        "pivotX": 0.470790,
-        "pivotY": 0.267890,
+      "piece/hair-front": {
+        "bone": "Head", "attachToBone": true,
+        "pivotX": 0.47079, "pivotY": 0.26789,
         "sortingOffset": 5
+      },
+      "piece/hair-back": {
+        "bone": "Head", "attachToBone": true,
+        "offsetX": -0.03533, "offsetY": 0.68297,
+        "pivotX": 0.453125, "pivotY": 0.609375,
+        "sortingOffset": 4,
+        "physics": {
+          "mode": "sway", "spring": 36, "damping": 7,
+          "gravity": 0.14, "motionInfluence": 1.5, "maxAngle": 30,
+          "idleAmplitude": 8, "idleFrequency": 0.8
+        }
       }
     }
   }

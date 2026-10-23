@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "type": "clothing",
+  "id": "yithiggy.art-pack:clothing/long-green",
+  "displayName": "Long Green",
+  "description": "",
+  "unlockedByDefault": true,
+  "category": "Hair",
+  "incompatibleCategories": ["Hair"],
+  "visual": {
+    "type": "originalClothingSprites",
+    "pixelsPerUnit": 32,
+    "sprites": {
+      "icon": "assets/icons/long-green.png",
+      "piece/hair-front": "assets/hair/long-green-front.png",
+      "piece/hair-back": "assets/hair/long-green-back.png"
+    },
+    "attachments": {
+      "piece/hair-front": {
+        "bone": "Head", "attachToBone": true,
+        "pivotX": 0.47079, "pivotY": 0.26789,
+        "sortingOffset": 5
+      },
+      "piece/hair-back": {
+        "bone": "Head", "attachToBone": true,
+        "offsetX": 0.02717, "offsetY": 0.12047,
+        "pivotX": 0.484375, "pivotY": 0.328125,
+        "sortingOffset": 4,
+        "physics": {
+          "mode": "sway", "spring": 38, "damping": 7,
+          "gravity": 0.12, "motionInfluence": 1.4, "maxAngle": 25,
+          "idleAmplitude": 7, "idleFrequency": 0.85
+        }
+      }
+    }
+  }
+}

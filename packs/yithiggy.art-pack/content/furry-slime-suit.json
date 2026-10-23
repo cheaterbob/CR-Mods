@@ -34,6 +34,12 @@
       "piece/l-leg-lower-shoes": "assets/outfits/furry-slime-suit/18-piece-l-leg-lower-shoes.png",
       "piece/r-foot": "assets/outfits/furry-slime-suit/19-piece-r-foot.png",
       "piece/l-foot": "assets/outfits/furry-slime-suit/20-piece-l-foot.png"
+    },
+    "attachments": {
+      "piece/head": {
+        "pivotX": 0.43672,
+        "pivotY": 0.49922
+      }
     }
   }
 }

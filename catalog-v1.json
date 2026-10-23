@@ -207,7 +207,7 @@
       "id": "yithiggy.art-pack", "displayName": "YiThiggy Art Pack", "authors": ["YiThiggy"],
       "summary": "A collection of 22 hairstyles, three animal-ear accessories, and the Furry Slime Suit by YiThiggy.", "sourceRepository": "https://github.com/RealmsStuff/CR-Mods", "previewImages": ["https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/packs/yithiggy.art-pack/preview.png"],
       "tags": ["visual", "clothing", "hair", "accessories"], "contentWarnings": ["Adult sexual content"],
-      "versions": [{"version": "1.3.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/yithiggy-art-pack.capmod", "sha256": "0ef580d9816144a66d7c4b8f54750953429a16a0f1b83d6f60d569d7ffa2ed3f", "sizeBytes": 182082, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
+      "versions": [{"version": "1.3.0", "modApiVersion": 1, "gameVersion": ">=2.2.2", "download": "https://raw.githubusercontent.com/RealmsStuff/CR-Mods/main/release-assets/yithiggy-art-pack.capmod", "sha256": "d56d0269e496478074a3f590ebe116eff00513b01b3b64dbc88efa743d3f6092", "sizeBytes": 182135, "dependencies": [{"id": "core", "version": ">=0.1.0"}], "conflicts": []}]
     }
   ]
 }

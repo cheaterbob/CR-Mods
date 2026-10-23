@@ -18,6 +18,7 @@
     "attachments": {
       "piece/hair-front": {
         "bone": "Head", "attachToBone": true,
+        "offsetY": -0.6875,
         "pivotX": 0.47079, "pivotY": 0.26789,
         "sortingOffset": 5
       },

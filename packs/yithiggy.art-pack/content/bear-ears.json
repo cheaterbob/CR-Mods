@@ -4,26 +4,27 @@
   "id": "yithiggy.art-pack:clothing/bear-ears",
   "displayName": "Bear Ears",
   "description": "",
-  "extends": "core:clothing/playboy-bunny-ears",
   "unlockedByDefault": true,
   "category": "Hat",
   "incompatibleCategories": [],
   "visual": {
-    "type": "coreClothingSprites",
+    "type": "originalClothingSprites",
     "pixelsPerUnit": 32,
     "sprites": {
       "icon": "assets/icons/bear-ears.png",
-      "piece/head": "assets/accessories/bear-ears.png"
+      "piece/ear-back": "assets/accessories/bear-ears-back.png",
+      "piece/ear-front": "assets/accessories/bear-ears-front.png"
     },
     "attachments": {
-      "piece/head": {
-        "bone": "Head",
-        "offsetX": 0,
-        "offsetY": 0,
-        "attachToBone": true,
-        "pivotX": 0.470790,
-        "pivotY": 0.267890,
-        "sortingOffset": 6
+      "piece/ear-back": {
+        "bone": "Head", "attachToBone": true,
+        "pivotX": 0.47079, "pivotY": 0.26789,
+        "sortingOffset": -2, "droppable": true
+      },
+      "piece/ear-front": {
+        "bone": "Head", "attachToBone": true,
+        "pivotX": 0.47079, "pivotY": 0.26789,
+        "sortingOffset": 6, "droppable": true
       }
     }
   }

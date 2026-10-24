@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "type": "clothing",
+  "id": "yithiggy.art-pack:clothing/furry-bdsm-red",
+  "displayName": "Furry BDSM Red",
+  "description": "",
+  "extends": "core:clothing/hazmat-suit",
+  "unlockedByDefault": true,
+  "category": "Upper",
+  "incompatibleCategories": ["Other", "Upper", "Lower", "Shoes", "Hat", "Sleeves", "Stockings"],
+  "visual": {
+    "type": "coreClothingSprites",
+    "pixelsPerUnit": 32,
+    "sprites": {
+      "icon": "assets/outfits/furry-bdsm-red/icon.png",
+      "piece/head": "assets/outfits/furry-bdsm-red/00-piece-head.png",
+      "piece/mask": "assets/outfits/furry-bdsm-red/01-piece-mask.png",
+      "piece/neck": "assets/outfits/furry-bdsm-red/02-piece-neck.png",
+      "piece/chest": "assets/outfits/furry-bdsm-red/03-piece-chest.png",
+      "piece/r-arm-upper": "assets/outfits/furry-bdsm-red/04-piece-r-arm-upper.png",
+      "piece/l-arm-upper": "assets/outfits/furry-bdsm-red/05-piece-l-arm-upper.png",
+      "piece/r-arm-lower": "assets/outfits/furry-bdsm-red/06-piece-r-arm-lower.png",
+      "piece/l-arm-lower": "assets/outfits/furry-bdsm-red/07-piece-l-arm-lower.png",
+      "piece/r-hand": "assets/outfits/furry-bdsm-red/08-piece-r-hand.png",
+      "piece/l-hand": "assets/outfits/furry-bdsm-red/09-piece-l-hand.png",
+      "piece/spine": "assets/outfits/furry-bdsm-red/10-piece-spine.png",
+      "piece/hips": "assets/outfits/furry-bdsm-red/11-piece-hips.png",
+      "piece/butt": "assets/outfits/furry-bdsm-red/12-piece-butt.png",
+      "piece/r-leg-upper": "assets/outfits/furry-bdsm-red/13-piece-r-leg-upper.png",
+      "piece/l-leg-upper": "assets/outfits/furry-bdsm-red/14-piece-l-leg-upper.png",
+      "piece/r-leg-lower": "assets/outfits/furry-bdsm-red/15-piece-r-leg-lower.png",
+      "piece/l-leg-lower": "assets/outfits/furry-bdsm-red/16-piece-l-leg-lower.png",
+      "piece/r-leg-lower-shoes": "assets/outfits/furry-bdsm-red/17-piece-r-leg-lower-shoes.png",
+      "piece/l-leg-lower-shoes": "assets/outfits/furry-bdsm-red/18-piece-l-leg-lower-shoes.png",
+      "piece/r-foot": "assets/outfits/furry-bdsm-red/19-piece-r-foot.png",
+      "piece/l-foot": "assets/outfits/furry-bdsm-red/20-piece-l-foot.png"
+    },
+    "attachments": {
+      "piece/head": {
+        "pivotX": 0.43672,
+        "pivotY": 0.42922
+      }
+    }
+  }
+}
